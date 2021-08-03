@@ -1,0 +1,149 @@
+.container {
+	/*height: 500px;*/
+}
+#cont{
+	background-color: #2d2f3b;
+}
+
+.navbar {
+	height: 150px;
+}
+
+.navbar-brand img {
+	max-width: 150px;
+}
+
+.menu {
+	justify-content: flex-end;
+	font-size: 22px;
+}
+
+
+
+button.btn {
+	border-radius: 50px;
+	padding: 10px 20px;
+}
+
+button.btn-dark {
+	background-color: #000000;
+}
+
+
+.btn-contact {
+	margin-top: 0;
+}
+
+.carousel-caption h5 {
+	font-size: 22px;
+	font-weight: bold;
+}
+#cartitas{
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.contenedoricon, .infoper, .card-body{
+	background-color: #f2f2f2;
+}
+.contenedoricon, .contentimages, .infoper h1, p, path, h3, h5{
+	color: #666d89;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.contenedoricon{
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.contentimages, .pie{
+	background-color: #2d2f3b;
+	padding-bottom: 30px;
+}
+.infoper{
+	padding-bottom: 20px;
+}
+#unborde{
+	border-right-width: 0px;border-bottom-width: 0px;border-left-width: 0px;border-top-width: 0px;
+	    background-color: unset;
+}
+
+
+
+.container6 {
+	background-color: #f16c65;
+	padding-bottom: 35px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.container6 h1{
+	color: white;
+}
+.form-control{
+	border-top-width: 0px;
+    border-left-width: 0px;
+    border-bottom-width: 0px;
+    border-right-width: 0px;
+
+}
+#exampleFormControlInput1, #exampleFormControlTextarea1{
+	background-color: #d75650;
+}
+.container h1{
+	margin-bottom: 30px;
+	padding-top: 35px;
+}
+.container6 p{
+	color: white;
+	font-size: 19px;
+}
+.container6 h2, h4{
+	color: white;
+	font-size: 19pt;
+	font-weight: normal;
+}
+.container h4{
+	font-weight: 600;
+}
+#respo{
+	text-align: -webkit-left;
+	padding-left: 30px;
+}
+#iconos{
+	color: white;
+}
+.pie{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	text-align: center;
+	display: flex;
+    justify-content: space-between;
+}
+.form-control{
+	background-color: black;
+	color: white;
+}
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+	.carousel-caption {
+	    font-size: 18px;
+	}
+
+	.carousel-caption h5 {
+		font-size: 32px;
+	}
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+	.btn-contact {
+		margin-top: 50px;
+	}
+
+	.carousel-caption {
+	    font-size: 24px;
+	}
+
+	.carousel-caption h5 {
+		font-size: 52px;
+	}
+}
